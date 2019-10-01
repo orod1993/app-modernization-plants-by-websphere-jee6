@@ -4,7 +4,7 @@ pipeline {
       REGISTRY_URL = "us.icr.io"
       RESOURCE_GROUP = "default"
       clusterCredsID = "cluster-creds"
-      DEPLOYMENT_NS = "default"
+      DEPLOYMENT_NS = "Default"
       RELEASE_NAME = "pbw-liberty-mariadb"
   }
   agent any
